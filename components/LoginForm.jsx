@@ -29,26 +29,27 @@ export default function LoginForm() {
                     text: "Invalid Credentials",
                     className: "warning",
                     style: {
-                      background: "red",
+                        background: "red",
                     },
                     gravity: "bottom", // `top` or `bottom`
-                      position: "left", // `left`, `center` or `right`
-                      stopOnFocus: true, // Prevents dismissing of toast on hover
-                  }).showToast()
+                    position: "left", // `left`, `center` or `right`
+                    stopOnFocus: true, // Prevents dismissing of toast on hover
+                }).showToast()
                 return;
             }
 
-            router.replace("home");
+            router.push("/home")
+            //console.log('success');
             Toastify({
                 text: "You are Logged In!!!",
                 className: "warning",
                 style: {
-                  background: "green",
+                    background: "green",
                 },
                 gravity: "bottom", // `top` or `bottom`
-                  position: "left", // `left`, `center` or `right`
-                  stopOnFocus: true, // Prevents dismissing of toast on hover
-              }).showToast()
+                position: "left", // `left`, `center` or `right`
+                stopOnFocus: true, // Prevents dismissing of toast on hover
+            }).showToast()
         } catch (error) {
             console.log(error);
         }
@@ -56,22 +57,22 @@ export default function LoginForm() {
 
     return (
         <div className="grid pickle place-items-center h-screen">
-            
-            
+
+
             <div className=" p-5 shadow-lg w-100 m-2 rounded-lg bg-slate-50 border-t-4 border-green-400">
-            <div className="text-center  align-center">
-                <Image src="https://i.ibb.co/fXPdQwX/logo.jpg" alt="img" className="text-center rounded-lg " width={150} height={150}/>
-                <h3 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h3>
-                <h4 className=" font-bold ">Sensing the curiosity</h4>
-            </div>
-            <h1 className="text-xl font-bold my-4">Login Form</h1>
+                <div className="text-center  align-center">
+                    <Image src="https://i.ibb.co/fXPdQwX/logo.jpg" alt="img" className="text-center rounded-lg " width={150} height={150} />
+                    <h3 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h3>
+                    <h4 className=" font-bold ">Sensing the curiosity</h4>
+                </div>
+                <h1 className="text-xl font-bold my-4">Login Form</h1>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                     <input
                         onChange={(e) => setEmail(e.target.value)}
                         type="text"
                         placeholder="Email"
                         className="w-full"
-                        />
+                    />
                     <input
                         onChange={(e) => setPassword(e.target.value)}
                         type="password"
