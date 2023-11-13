@@ -5,6 +5,7 @@ import "toastify-js/src/toastify.css"
 import { useState } from 'react'
 import { useRouter } from "next/navigation";
 import Link from 'next/link'
+import Image from 'next/image';
 export default function RegisterForm() {
 
   const [name, setName] = useState("")
@@ -105,7 +106,7 @@ export default function RegisterForm() {
 
       <div className="shadow-lg p-5 w-100 m-2 bg-slate-50 rounded-lg border-t-4 border-green-400">
         <div className="text-center align-center">
-          <img src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} />
+          <Image alt='img' src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} />
           <h1 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h1>
           <h4 className=" font-bold ">Sensing the curiosity</h4>
         </div>

@@ -115,11 +115,11 @@ export default function EditProfile() {
 
             <div className=" p-5 shadow-lg w-100 m-2 bg-slate-50 rounded-lg border-t-4 border-green-400">
                 <div className="text-center align-center">
-                    <img src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} />
+                    <Image src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} />
                     <h1 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h1>
                     <h4 className=" font-bold ">Sensing the curiosity</h4>
                 </div>
-                <h1 className="text-xl font-bold my-4">Edit Your Profile's Name</h1>
+                <h1 className="text-xl font-bold my-4">Edit Your Profile&apos;s Name</h1>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                     <input
                         onChange={(e) => setName(e.target.value)}
@@ -152,7 +152,7 @@ export default function EditProfile() {
                     }
 
 
-                    <Link className="text-sm mt-3 text-right" href={"/yourprofile"}>Don't want to change profile? <span className="underline">Your Profile</span></Link>
+                    <Link className="text-sm mt-3 text-right" href={"/yourprofile"}>Don&apos;t want to change profile? <span className="underline">Your Profile</span></Link>
 
                 </form>
             </div>

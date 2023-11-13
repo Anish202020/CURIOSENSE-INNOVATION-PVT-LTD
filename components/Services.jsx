@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from "next/image"
 function Services() {
     return (
         <div>
@@ -20,7 +21,7 @@ function Services() {
                     <div className="flex flex-wrap -m-4">
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse2.mm.bing.net/th?id=OIP.iDnrdOTGHxtxWyortkRP9QHaGv&pid=Api&P=0&h=180" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse2.mm.bing.net/th?id=OIP.iDnrdOTGHxtxWyortkRP9QHaGv&pid=Api&P=0&h=180" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Product</h3>
@@ -30,7 +31,7 @@ function Services() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse1.mm.bing.net/th?id=OIP.tuwHzPocb5M-vohzqWVYSwHaE-&pid=Api&P=0&h=1801" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse1.mm.bing.net/th?id=OIP.tuwHzPocb5M-vohzqWVYSwHaE-&pid=Api&P=0&h=1801" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
@@ -40,7 +41,7 @@ function Services() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eb4ea455073437.5975e6a339745.jpg" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/eb4ea455073437.5975e6a339745.jpg" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Product</h3>
@@ -50,7 +51,7 @@ function Services() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://images-platform.99static.com/sSft-Pk3waeZP83Fmmp8bLFXFvg=/0x0:1200x1200/fit-in/500x500/projects-files/43/4331/433159/4f77c99a-8ee2-484b-9c90-77785a107d42.jpg" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse1.mm.bing.net/th?id=OIP.ZbrQX1HuqnQJGWMSRCEMbgHaE5&pid=Api&P=0&h=180" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
@@ -60,7 +61,7 @@ function Services() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://static.connectivepharma.com/userfiles/images/66/bd/fd/14/0cc35a0723499b1a2a1d4dea.jpg" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse1.mm.bing.net/th?id=OIP.xRYinH476i-hjX2xgVD6MgHaHa&pid=Api&P=0&h=180" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
@@ -70,7 +71,7 @@ function Services() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse4.mm.bing.net/th?id=OIP.BC1ZwHNLlzSuIvdP7Jc3SwHaHa&pid=Api&P=0&h=180" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://tse4.mm.bing.net/th?id=OIP.BC1ZwHNLlzSuIvdP7Jc3SwHaHa&pid=Api&P=0&h=180" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>
@@ -80,7 +81,7 @@ function Services() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://ucarecdn.com/a78b5d0f-8163-44d8-81b8-c737aa026a70/-/preview/O6IBbhXI" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://ucarecdn.com/a78b5d0f-8163-44d8-81b8-c737aa026a70/-/preview/O6IBbhXI" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Product</h3>
@@ -90,7 +91,7 @@ function Services() {
                         </div>
                         <div className="lg:w-1/4 md:w-1/2 p-4 w-full">
                             <a className="block relative h-48 rounded overflow-hidden">
-                                <img alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://www.sevengracesblog.com/wp-content/uploads/2014/10/months34faves-square.png" />
+                                <Image unoptimized width={100} height={100} alt="ecommerce" className="object-cover object-center w-full h-full block" src="https://www.sevengracesblog.com/wp-content/uploads/2014/10/months34faves-square.png" />
                             </a>
                             <div className="mt-4">
                                 <h3 className="text-gray-500 text-xs tracking-widest title-font mb-1">Service</h3>

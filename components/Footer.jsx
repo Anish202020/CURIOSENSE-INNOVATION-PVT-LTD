@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 function Footer() {
@@ -6,7 +7,7 @@ function Footer() {
       <div className="container text-center px-5 py-24 mx-auto flex md:items-center text-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
         <div className="w-1/2 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
           <a href="/home" className="flex title-font font-medium text-center items-center md:justify-start justify-center">
-            <img src="https://i.ibb.co/fXPdQwX/logo.jpg"
+            <Image src="https://i.ibb.co/fXPdQwX/logo.jpg"
               width={50}
               height={50}
               style={{ width: '3rem', alignItems: "center", height: '2.5rem', borderRadius: '20%' }}

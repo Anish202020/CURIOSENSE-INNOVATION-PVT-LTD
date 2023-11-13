@@ -60,7 +60,7 @@ export default function LoginForm() {
             
             <div className=" p-5 shadow-lg w-100 m-2 rounded-lg bg-slate-50 border-t-4 border-green-400">
             <div className="text-center  align-center">
-                <img src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150}/>
+                <Image src="https://i.ibb.co/fXPdQwX/logo.jpg" alt="img" className="text-center rounded-lg " width={150} height={150}/>
                 <h3 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h3>
                 <h4 className=" font-bold ">Sensing the curiosity</h4>
             </div>
@@ -89,7 +89,7 @@ export default function LoginForm() {
 
 
                     <Link className="text-sm mt-3 text-right" href={"/forgetpassword"}><span className="underline">Forgot Password?</span></Link>
-                    <Link className="text-sm mt-3 text-right" href={"/register"}>Don't have an account? <span className="underline">Register</span></Link>
+                    <Link className="text-sm mt-3 text-right" href={"/register"}>Don&apos;t have an account? <span className="underline">Register</span></Link>
                 </form>
             </div>
 

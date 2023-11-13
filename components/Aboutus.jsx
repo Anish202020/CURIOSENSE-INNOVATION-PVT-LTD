@@ -23,7 +23,7 @@ function Aboutus() {
                         </div>
                         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Mind Matters: Prioritizing Mental Health</h2>
-                            <p className="leading-relaxed text-base mb-4">We understand that mental health is the cornerstone of a child's holistic development. Our programs and resources are designed not just to educate but also to support the emotional well-being of every young mind in our care.</p>
+                            <p className="leading-relaxed text-base mb-4">We understand that mental health is the cornerstone of a child&apos;s holistic development. Our programs and resources are designed not just to educate but also to support the emotional well-being of every young mind in our care.</p>
                             <a className="text-green-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>
@@ -40,7 +40,7 @@ function Aboutus() {
                             </a>
                         </div>
                         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
-                            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Innovative Tools for Tomorrow's Skills</h2>
+                            <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Innovative Tools for Tomorrow&apos;s Skills</h2>
                             <p className="leading-relaxed text-base mb-4">Introducing innovative tools, we are committed to revolutionizing the learning landscape. These cutting-edge resources aim to augment traditional approaches, ensuring children are equipped not only for the challenges of today but also for the dynamic opportunities of tomorrow.</p>
                             <a className="text-green-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
@@ -50,7 +50,7 @@ function Aboutus() {
                         </div>
                         <div className="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200 border-opacity-60">
                             <h2 className="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Skills for Tomorrow: Empowering Futures</h2>
-                            <p className="leading-relaxed text-base mb-4">Skill development is at the core of our mission. We aim to equip children with the tools they need not just for today, but for the challenges and opportunities of tomorrow. Together, let's build a foundation for success and a love for learning that lasts a lifetime.</p>
+                            <p className="leading-relaxed text-base mb-4">Skill development is at the core of our mission. We aim to equip children with the tools they need not just for today, but for the challenges and opportunities of tomorrow. Together, let&apos;s build a foundation for success and a love for learning that lasts a lifetime.</p>
                             <a className="text-green-500 inline-flex items-center">Learn More
                                 <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                     <path d="M5 12h14M12 5l7 7-7 7"></path>

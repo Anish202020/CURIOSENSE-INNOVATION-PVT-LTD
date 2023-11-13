@@ -55,8 +55,9 @@ export default function Stickynavbar() {
                     alt="Your Company"
                     
                   /> */}
-                  <a href="/home"><img src="https://i.ibb.co/fXPdQwX/logo.jpg"
+                  <a href="/home"><Image src="https://i.ibb.co/fXPdQwX/logo.jpg"
                     width={50}
+                    unoptimized
                     height={50}
                     style={{ width: '3rem', height: '2.5rem', borderRadius: '20%' }}
                     alt="logo" border="0" /></a>
@@ -95,10 +96,11 @@ export default function Stickynavbar() {
                     <Menu.Button className="relative flex rounded-full bg-gray-800 text-sm focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-gray-800">
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
-                      <img
-                        className="h-8 w-8 rounded-full"
-                        src="https://www.kindpng.com/picc/m/24-248253_user-profile-default-image-png-clipart-png-download.png"
+                      <Image
+                        className="h-8 w-8 rounded-full" width={10} height={10}
+                        src="https://i.ibb.co/TrDtSwn/img1.png"
                         alt=""
+                        unoptimized
                       />
                     </Menu.Button>
                   </div>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 function Event() {
   return (
     <div><section className="text-gray-600 body-font">
@@ -17,7 +18,7 @@ function Event() {
 
 
 
-              <img alt="content" className="object-cover object-center h-full w-full" src="https://i.ibb.co/S7QMLhP/child-birthday.jpg" />
+              <Image unoptimized width={100} height={100} alt="content" className="object-cover object-center h-full w-full" src="https://i.ibb.co/S7QMLhP/child-birthday.jpg" />
             </div>
             <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Birthday Parties</h2>
             <p className="leading-relaxed m-5 text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
@@ -28,7 +29,7 @@ function Event() {
           </div>
           <div className="sm:w-1/2 mb-10 px-4">
             <div className="rounded-lg h-64 overflow-hidden">
-              <img alt="content" className="object-cover object-center h-full w-full" src="https://i.ibb.co/Chfp0zH/learning-classNamees.jpg" />
+              <Image unoptimized width={100} height={100} alt="content" className="object-cover object-center h-full w-full" src="https://i.ibb.co/Chfp0zH/learning-classNamees.jpg" />
             </div>
             <h2 className="title-font text-2xl font-medium text-gray-900 mt-6 mb-3">Learning ClassNamees</h2>
             <p className="leading-relaxed m-5 text-base">Williamsburg occupy sustainable snackwave gochujang. Pinterest cornhole brunch, slow-carb neutra irony.</p>
