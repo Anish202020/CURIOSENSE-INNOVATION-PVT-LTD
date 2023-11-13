@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+input{
+  @apply w-[400px] border border-gray-200 py-2 px-6
+  bg-zinc-100/40;
+}
+.pickle{
+  /* background-image: url("https://i.ibb.co/2W9g8SK/image.jpg"); */
+  background-image: url("https://i.ibb.co/c8XGp35/image2.jpg");
+  background-size: cover;
+}
+.pickled{
+  
+  background-image: url("https://i.ibb.co/QKznG2J/new2.jpg");
+  /* background-image: url("https://i.ibb.co/606ZFsg/new3.jpg"); */
+  background-size: cover;
+}
+.pickleed{
+  background-image: url("https://i.ibb.co/0ChTffr/new.jpg");
+  /* background-: ; */
+  background-size: cover;
+  /* background-size: contain; */
+}
+
+.back{
+  background-image: url("https://i.ibb.co/s9kGdb6/download-13.jpg");
+  /* background-: ; */
+  background-size: cover;
+  /* background-size: contain; */
+
+}
+
+.backy{
+  background-image: url("https://i.ibb.co/BK96sqZ/download-11.jpg");
+  /* background-: ; */
+  background-size: cover;
+  /* background-size: contain; */
+
+}
