@@ -5,6 +5,7 @@ import { signIn } from "next-auth/react";
 import { useRouter } from "next/navigation";
 import Toastify from 'toastify-js'
 import "toastify-js/src/toastify.css"
+import { signOut } from "next-auth/react";
 import Image from "next/image";
 
 export default function EditProfile() {
@@ -22,7 +23,7 @@ export default function EditProfile() {
         e.preventDefault();
 
 
-        if (!name || !email || !newname ) {
+        if (!name || !email || !newname || !newemail ) {
             setError("All fields are necessary")
             Toastify({
                 text: "Enter Email & Name",
@@ -51,15 +52,15 @@ export default function EditProfile() {
                     name,
                     newname,
                     email,
-
+                    newemail
 
                 }),
-
             });
 
             if (res.ok) {
                 const form = e.target;
-                router.push("/");
+                signOut()
+                // router.push("/");
 
                 form.reset();
                 Toastify({
@@ -111,15 +112,16 @@ export default function EditProfile() {
     }
 
     return (
-        <div className="grid back place-items-center h-screen">
+        <div className="grid back place-items-center">
 
             <div className=" p-5 shadow-lg w-100 m-2 bg-slate-50 rounded-lg border-t-4 border-green-400">
                 <div className="text-center align-center">
-                    <Image src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} />
+                <Image priority src="https://i.ibb.co/fXPdQwX/logo.jpg" style={{ width: '8rem', height: '8rem', borderRadius: '20%' }} alt="img" className="text-center rounded-lg " width={150} height={150} />
+                    {/* <Image src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} /> */}
                     <h1 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h1>
                     <h4 className=" font-bold ">Sensing the curiosity</h4>
                 </div>
-                <h1 className="text-xl font-bold my-4">Edit Your Profile&apos;s Name</h1>
+                <h1 className="text-xl font-bold my-4">Edit Your Profile&apos;s Name & Email</h1>
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                     <input
                         onChange={(e) => setName(e.target.value)}
@@ -136,8 +138,14 @@ export default function EditProfile() {
                     />
                     <input
                         onChange={(e) => setEmail(e.target.value)}
-                        type="text"
+                        type="email"
                         placeholder="Old Email"
+                        className="w-full"
+                    />
+                    <input
+                        onChange={(e) => setNewEmail(e.target.value)}
+                        type="email"
+                        placeholder="New Email"
                         className="w-full"
                     />
 

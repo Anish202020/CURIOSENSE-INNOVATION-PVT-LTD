@@ -21,7 +21,7 @@ function Footer() {
         <div className="">
           <div className=" px-4 flex-grow w-full text-center   flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md: text-center">
             <nav className="list-none mb-10">
-              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">CATEGORIES</h2>
+              <h2 className="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">Sensing The Curiosity</h2>
               <li>
                 <a href='/home' className="text-gray-600 hover:text-gray-800">Home</a>
               </li>

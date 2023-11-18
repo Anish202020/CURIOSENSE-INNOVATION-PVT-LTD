@@ -7,8 +7,8 @@ export default function About() {
   return (
     <div>
       <Stickynavbar></Stickynavbar>
-      <Team></Team>
       <Aboutus></Aboutus>
+      <Team></Team>
       <Footer></Footer>
     </div>
   )

@@ -99,7 +99,7 @@ export default function ForgetForm() {
 
             <div className=" p-5 shadow-lg w-100 m-2 bg-slate-50 rounded-lg border-t-4 border-green-400">
                 <div className="text-center align-center">
-                    <Image src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} />
+                    <Image priority src="https://i.ibb.co/fXPdQwX/logo.jpg" style={{ width: '8rem', height: '8rem', borderRadius: '20%' }} alt="Img" className="text-center rounded-lg " width={150} height={150} />
                     <h1 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h1>
                     <h4 className=" font-bold ">Sensing the curiosity</h4>
                 </div>
@@ -107,7 +107,7 @@ export default function ForgetForm() {
                 <form onSubmit={handleSubmit} className="flex flex-col gap-3">
                     <input
                         onChange={(e) => setEmail(e.target.value)}
-                        type="text"
+                        type="email"
                         placeholder="Email"
                         className="w-full"
                     />

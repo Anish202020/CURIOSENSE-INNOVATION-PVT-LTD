@@ -17,7 +17,8 @@ function UserProfile() {
 
                     <div className=" p-5 shadow-lg w-100 m-2 rounded-lg bg-slate-50 border-t-4 border-green-400">
                         <div className="text-center  align-center">
-                            <Image alt='img' unoptimized  src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} />
+                            {/* <Image alt='img' unoptimized  src="https://i.ibb.co/fXPdQwX/logo.jpg" className="text-center rounded-lg " width={150} height={150} /> */}
+                            <Image priority src="https://i.ibb.co/fXPdQwX/logo.jpg" style={{ width: '8rem', height: '8rem', borderRadius: '20%' }} alt="img" className="text-center rounded-lg " width={150} height={150} />
                             <h3 className="text-xl font-bold ">CURIOSENSE INNOVATION PRIVATE LIMITED</h3>
                             <h4 className=" font-bold ">Sensing the curiosity</h4>
                         </div>
@@ -57,7 +58,7 @@ function UserProfile() {
 
 
                             {/* <Link className="text-sm mt-3 text-right" href={"/editname"}><span className="underline">Edit Name?</span></Link> */}
-                            <Link className="text-sm mt-3 text-right" href={"/edit"}><span className="underline">Edit Profile Name?</span></Link>
+                            <Link className="text-sm mt-3 text-right" href={"/edit"}><span className="underline">Edit Profile Name & Email?</span></Link>
 
                         </div>
                     </div>

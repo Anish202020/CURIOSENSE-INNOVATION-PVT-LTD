@@ -6,13 +6,13 @@ import { NextResponse } from "next/server";
 export async function POST(req) {
   try {
     await connectMongoDB();
-    const {name,newname,email } = await req.json();
+    const {name,newname,email,newemail } = await req.json();
 
 
     console.log(name,email)
     const user = await User.findOne({ email }).select("_id");
     
-    await User.findByIdAndUpdate(user, {name: newname })
+    await User.findByIdAndUpdate(user, {name: newname,email:newemail })
     // await User.findByIdAndUpdate(id, { name: newname })
     
     

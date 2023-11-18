@@ -109,7 +109,7 @@ export default function Contact() {
               <div className="relative mb-4">
                 <label htmlFor="email" className="leading-7 text-sm text-gray-600">Email</label>
                 <input
-                  type="text"
+                  type="email"
                   id="email"
                   name="email"
                   placeholder="Email Address"
@@ -134,13 +134,13 @@ export default function Contact() {
                 </div>
               )}
 
-              <p className="text-xs text-gray-500 mt-3 text-center">We Defend Life.</p>
+              <p className="text-xs text-gray-500 mt-3 text-center">Sensing The Curiosity.</p>
             </div>
           </form>
         </div>
       </section>
       {/* What we stand htmlFor */}
     </div>
-  )
+  ) 
 }
 
